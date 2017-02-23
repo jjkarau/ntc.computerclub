@@ -1,13 +1,7 @@
 <nav>
     <div class="nav-container">
         <div class="title-container">
-            <script>
-                var title = document.title;
-                var titleWords = title.split(" ");
-                titleWords.forEach(function(word){
-                   document.write(word + "<br>"); 
-                });
-            </script>
+            <h5>NTC Computer Club</h5>
         </div>
         <div id="links-container" class="links-container hideall">
             <span id="tap_for_nav" class="tap-for-nav">
@@ -16,10 +10,10 @@
                     <path d="M6 36h36v-4h-36v4zm0-10h36v-4h-36v4zm0-14v4h36v-4h-36z"/>
                 </svg>
             </span>
-            <a class="link" href="landing.php">Welcome</a>
-            <a class="link" href="pumpkin_carving.php">Pumpkin Carving</a>
-            <a class="link" href="scary_activities.php">Scary Activities</a>
-            <a class="link" href="spooky_recipes.php">Spooky Recipes</a>
+            <a class="link" href="landing.php">Home</a>
+            <a class="link" href="about.php">About</a>
+            <a class="link" href="events.php">Events</a>
+            <a class="link" href="contact.php">Contact</a>
         </div>
     </div>
 </nav>

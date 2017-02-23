@@ -1,9 +1,5 @@
 html {
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-color: #000000;
+    background: url("../../../graphics/shattered-ntc.jpg") fixed repeat;
 }
 
 html, body {
@@ -14,11 +10,10 @@ html, body {
 
 body {
     padding: 0px;
-    background-color: black;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 12pt;
     font-weight: 400;
-    color: rgba(255, 165, 0, 0.8);
+    color: #3232C1;
     margin: 0px;
     text-align: left;
 }
@@ -131,7 +126,7 @@ main p {
 }
 
 .linkfont {
-    font-family: 'Germania One', cursive;
+    
 }
 
 /*********************************************************************************/
@@ -162,15 +157,20 @@ main p {
 /*********************************************************************************/
 
 footer h1 {
-    color: #FFBE4a;
+    color: #3232C1;
     padding-top: 20px;
 }
 
 footer {
-    margin-top: 10%;
-    color: #AAA;
-    border-top: solid 1px #FFBE4a;
+    background-color: #000000;
+    border-top: solid 1px #3232C1;
+    bottom: 0;
+    color: #AAAAAA;
     height: 160px;
+    left: 0;
+    margin-top: 10%;
+    position: absolute;
+    right: 0;
 }
 
 @media screen and (min-width: 750px){

@@ -1,45 +1,73 @@
 .nav-container {
+    background-color: #000000;
+    color: #FFF;
     display: flex;
     flex-direction: row;
-    color: #FFBE4A;
     height: 2em;
-    z-index: 5;
-    border-bottom: 1px solid #FFBE4A;
-    margin-bottom: 1%;
     padding-bottom: 2em;
-    font-family: "Germania One";
-}
-
-.links-container {
+    z-index: 5;
 }
 
 .title-container {
-    padding-left: .3em;
-    padding-top: .3em;
-    margin-right: 115px;
-    flex-grow: 2;
-    font-size: 1.5em;
     float: left;
+    margin: .8em;
+    width: 250px;
+    font-size: 1.5em;
     z-index: 100;
 }
 
-.link {
-    width: 100%;
-    font-size: 1.5em;
-    color: #FFBE4A;
+.links-container {
     display: block;
+}
+
+.link {
+    font-size: 1.5em;
+    color: #FFF;
+    display: inline-block;
     text-align: right;
     padding-top: 0.31em;
     height: 1.75em;
     margin-right: -1px;
-    border: 1px solid #FFBE4A;
+    border: 1px solid #3232C1;
     border-top: 2px;
     text-decoration: none;
 }
 
 .link:hover {
-    background-color: #FFBE4A;
-    color: black;
+    background-color: #3232C1;
+    color: #FFF;
+}
+
+@media (min-width:768px) {
+    
+    .links-container .tap-for-nav {
+        display: none;
+    }
+    
+    .links-container {
+        background-color: black;
+        display: inline-block;
+        text-align: right;
+        width: 100%;
+    }
+    
+    .links-container .link {
+        text-align: center;
+        justify-content: center;
+        line-height: 2em;
+        padding-bottom: .6em;
+        padding-left: 1em;
+        padding-right: 1em;
+        border: 0;
+    }
+    
+    .links-container {
+        transition: .4s ease all;
+    }    
+    
+    .links-container.showall .tap-for-nav {
+        margin-right: 17px;    
+    }
 }
 
 @media (max-width:767.999px) {
@@ -107,38 +135,6 @@
     .links-container.showall .tap-for-nav {
         margin-right: 0;
             
-    }
-}
-
-@media (min-width:768px) {
-    
-    .links-container .tap-for-nav {
-        display: none;
-    }
-    
-    .links-container {
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        background-color: black;
-    }
-    
-    .links-container .link {
-        width: auto;
-        flex-grow: 1;
-        text-align: center;
-        justify-content: center;
-        line-height: 2em;
-        padding-bottom: .6em;
-        border: 0;
-    }
-    
-    .links-container {
-        transition: .4s ease all;
-    }    
-    
-    .links-container.showall .tap-for-nav {
-        margin-right: 17px;    
     }
 }
 

@@ -3,7 +3,7 @@
 
 <head>
     <?php include("../partial_views/common_head.view"); ?>
-        <title>Halloween DIY</title>
+        <title>NTC Computer Club</title>
 </head>
 
 <body>
@@ -15,11 +15,13 @@
                 <main class="tabcontents">
                     <section id="welcome">
                         <article>
-                            <img class="text-on-image" src="../graphics/headerpic.jpg" />
                             <article>
-                                <h1>Happy Halloween!</h1>
-                                <p>Halloween is celebrated by nearly 200 million Americans each year, spending billions of dollars on decorations, candy and costumes. There is a certain mystique involved with Halloween. Are there really ghosts, ghouls, and goblins hiding in the dark? Are there really dark, scary forces out there ready to snatch up our kids and steal their souls? What better way to get into the spirit of these ideas than to carve immaculate jack-o-lanterns, dress like Michael Myers and impose on your neighbors for bags of candy!</p><h2>Trick Or Treat</h2>
-                                <p>The creative minds here at Northcentral Technical College have come forth with a Do-It-Yourself plan to help make your Halloween unforgettable. You will find step by step pictorials on jack-o-lantern carving. Parents will be able to maneuver to other provided sites to find templates for possible carving ideas and will be able to view a list of tools needed. Check out a few of our Spooky Recipe ideas to scare your friends at your next Halloween Party. Booooooo....</p>
+                                <h1>The Computer Club</h1>
+                                <p>The computer club members are students enrolled in any of the IT programs offered thru NTC along with several student advisers.  We all share a common interest which is of course computers! That is why we call ourselves the IT Society. We meet roughly every other Wednesday at noon. When we meet we discuss club activities and sometimes have guest speakers too.  It is a great way to get to know other IT students and start networking. Feel free to click here to view our schedule.</p>
+                                <h2>Reasons to Join the Computer Club</h2>
+                                <p>There are several reasons to consider joining the Computer Club. It is a fun way to get to know fellow IT students and computer enthusiasts. The setting is relaxed and encourages participation. One of our guest speakers could be your future employer. Even if you are not seeking employment at this time attending the speaker meetings can be beneficial to you. The company representatives give us information about their business. They also usually tell us what companies are looking for in new hires! Speaker meetings are also a great opportunity to ask questions.</p>
+                                <h2>Other Activities</h2>
+                                <p>Besides club meetings and guest speakers we also try to plan a couple of outside activities. This semester we have an optional on-going wellness challenge. IT students that partake in this healthy challenge can even win prizes! Click here if you would like to learn more. We also try to plan some other fun activities. In the past we have planned things such as the summer picnic, gaming parties, hayrides , and more. We are always open to new ideas! Every year the computer club also adopts an area family in need at Christmas time. This fall we are raffling off tickets for a  laptop that is on display in iTEC. The proceeds from ticket sales go towards this great cause and also help to keep the computer club going thru out the year.</p>
                             </article>
                     </section>
                         
