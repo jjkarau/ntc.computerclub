@@ -3,7 +3,7 @@ html {
 }
 
 html, body {
-    font-size: 12pt;
+    font-size: 12px;
     height: 100%;
     overflow-x: hidden;
 }
@@ -58,6 +58,29 @@ a:hover {
 
 main p {
     margin: 10px 10px;
+}
+
+article {
+    
+}
+
+#landingBanner {
+    background: rgba(255,255,255,.7);
+    border: 1px solid rgba(0,0,0,1);
+    display: block;
+    margin: auto;
+    width: 90%;
+}
+
+#landingBanner img {
+    float: left;
+    width: 50%;
+}
+
+#pageContent {
+    background: rgba(255,255,255,.7);
+    border: 1px solid rgba(0,0,0,1);
+    padding: 2em;
 }
 
 #jackolanternColumns {
@@ -158,20 +181,18 @@ main p {
 
 footer h1 {
     color: #3232C1;
-    padding-top: 20px;
 }
 
 footer {
     background-color: #000000;
-    border-top: solid 1px #3232C1;
-    bottom: 0;
     color: #AAAAAA;
-    height: 160px;
-    left: 0;
-    margin-top: 10%;
-    position: absolute;
-    right: 0;
+    height: 50px;
+    margin-top: 1%;
 }
+
+/*********************************************************************************/
+/* Base Screen Size Changes                                                      */
+/*********************************************************************************/
 
 @media screen and (min-width: 750px){
     footer {

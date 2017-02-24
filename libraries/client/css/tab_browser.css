@@ -8,11 +8,11 @@
 */
 
 ::selection {
-  background: #FAB940; /* WebKit/Blink Browsers */
+  background: #4C4CFF; /* WebKit/Blink Browsers */
 }
 
 ::-moz-selection {
-  background: #FFBE4A; /* Gecko Browsers */
+  background: #4C4CFF; /* Gecko Browsers */
 }
 
 .tab_controls {
@@ -157,20 +157,18 @@
 }
 
 .previous_tab_container {
-    border: 1px solid #FFBE4a;
+    border: 1px solid #3232C1;
     border-radius: 5px;
     display: inline-block;
-    font-family: 'Germania One', cursive;
     margin-right: 1%;
     margin-top: -1px;
     padding: 5px;
 }
 
 .next_tab_container {
-    border: 1px solid #FFBE4a;
+    border: 1px solid #3232C1;
     border-radius: 5px;
     display: inline-block;
-    font-family: 'Germania One', cursive;
     margin-right: 3%;
     margin-top: -1px;
     padding: 5px;

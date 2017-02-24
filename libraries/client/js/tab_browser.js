@@ -110,7 +110,7 @@
         // Load the controls.
         function () {
             var browser_elem = obj_tabBrowser.obj_htmlElements.container[0];
-            var controls = '<div class="tab_controls anti-flash"><div class="left"><span>Page <span class="current_tab">1</span> of <span class="tab_count">N</span></span></div><div class="right"><div class="previous_tab_container"><span class="previous_tab_button"><img class="previousButton" src="../graphics/pagenavicon.svg" alt="Click here to go to the last sub page"/></span></div><div class="next_tab_container"><span class="next_tab_button"><img class="nextButton" src="../graphics/pagenavicon.svg" alt="Click here to go to the next sub page"/></span></div></div></div>';
+            var controls = '<div class="tab_controls anti-flash"><div class="left"><span>Page <span class="current_tab">1</span> of <span class="tab_count">N</span></span></div><div class="right"><div class="previous_tab_container"><span class="previous_tab_button">&#171; Previous</span></div><div class="next_tab_container"><span class="next_tab_button">Next &#187;</span></div></div></div>';
             browser_elem.innerHTML = controls + browser_elem.innerHTML + controls;
             
             

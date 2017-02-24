@@ -10,19 +10,25 @@
     <div class="outer-wrap">
         <div class="inner-wrap">
             <?php include("../partial_views/nav.view");?>
+            
+                <div id="landingBanner" align="center" >
+                    <img src="../graphics/itec1.jpg" />
+                    <img src="../graphics/itecdoor1.jpg" />
+                </div>
+            
                 <!-- Begin body content -->
-
                 <main class="tabcontents">
                     <section id="welcome">
                         <article>
-                            <article>
+                            <div id="pageContent">
                                 <h1>The Computer Club</h1>
                                 <p>The computer club members are students enrolled in any of the IT programs offered thru NTC along with several student advisers.  We all share a common interest which is of course computers! That is why we call ourselves the IT Society. We meet roughly every other Wednesday at noon. When we meet we discuss club activities and sometimes have guest speakers too.  It is a great way to get to know other IT students and start networking. Feel free to click here to view our schedule.</p>
                                 <h2>Reasons to Join the Computer Club</h2>
                                 <p>There are several reasons to consider joining the Computer Club. It is a fun way to get to know fellow IT students and computer enthusiasts. The setting is relaxed and encourages participation. One of our guest speakers could be your future employer. Even if you are not seeking employment at this time attending the speaker meetings can be beneficial to you. The company representatives give us information about their business. They also usually tell us what companies are looking for in new hires! Speaker meetings are also a great opportunity to ask questions.</p>
                                 <h2>Other Activities</h2>
                                 <p>Besides club meetings and guest speakers we also try to plan a couple of outside activities. This semester we have an optional on-going wellness challenge. IT students that partake in this healthy challenge can even win prizes! Click here if you would like to learn more. We also try to plan some other fun activities. In the past we have planned things such as the summer picnic, gaming parties, hayrides , and more. We are always open to new ideas! Every year the computer club also adopts an area family in need at Christmas time. This fall we are raffling off tickets for a  laptop that is on display in iTEC. The proceeds from ticket sales go towards this great cause and also help to keep the computer club going thru out the year.</p>
-                            </article>
+                            </div>
+                        </article>
                     </section>
                         
                     <section id="authors">
